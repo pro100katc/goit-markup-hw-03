@@ -36,7 +36,7 @@
                     /* HEADER*/
                     .container {
                         width: 1170px;
-                        height: 80px;
+                        
                         margin-left: auto;
                         margin-right: auto;
                         background-color: yellow;
@@ -51,6 +51,7 @@
                         letter-spacing: 0.03em;
                         text-decoration: none;
                         color: var(--accent-color);
+                        margin-bottom: 0px;
                     }
 
                     .studio {
@@ -64,6 +65,7 @@
                         letter-spacing: 0.02em;
                         text-decoration: none;
                         color: var(--title-text-color);
+                        margin-bottom: 0px;
                     }
 
                     .site-nav :hover {
@@ -89,9 +91,10 @@
                     /* Hero */
 
                     .hero {
-                        background-color: var(--footer-background-color);
-                        color: var(--background-white-color);
+                        background-color: yellow;
+                        color: inherit;
                         margin-bottom: 0px;
+                        text-align: center;
                     }
 
                     .hero-title {
@@ -149,6 +152,7 @@
                         text-transform: uppercase;
                         color: var(--title-text-color);
                         margin-bottom: 0px;
+                        margin-top: 94px;
                     }
 
                     .text-skill {
@@ -158,6 +162,7 @@
                         letter-spacing: 0.03em;
                         color: var(--primary-text-color);
                         margin-bottom: 0px;
+                        margin-top: 10px;
                     }
 
                     .caption {
@@ -168,6 +173,7 @@
                         letter-spacing: 0.03em;
                         color: var(--title-text-color);
                         margin-bottom: 0px;
+                        margin-top: 0px;
                     }
 
                     .team {
@@ -180,6 +186,7 @@
                         line-height: 1.19;
                         letter-spacing: 0.03em;
                         color: var(--title-text-color);
+                        margin-bottom: 0px;
                     }
 
                     .profession {
@@ -187,7 +194,8 @@
                         font-size: 16px;
                         line-height: 1.19;
                         letter-spacing: 0.03em;
-                        color: var(--primary-text-color)
+                        color: var(--primary-text-color);
+                        margin-bottom: 0px;
                     }
 
                     /* PORTFOLIO*/
