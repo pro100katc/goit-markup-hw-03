@@ -4,6 +4,12 @@
                     /* другорядний колір rgba(255, 255, 255, 0.6) */
                     /* <style>*/
 
+                    *,
+                    *::after,
+                    *::before {
+                        box-sizing: border-box;
+                    }
+
                     :root {
                         --primary-text-color: #757575;
                         --title-text-color: #212121;
@@ -23,6 +29,8 @@
 
                     .list {
                         list-style: none;
+                        margin: 0px;
+                        padding: 0px;
                     }
 
                     /* HEADER*/
@@ -83,6 +91,7 @@
                     .hero {
                         background-color: var(--footer-background-color);
                         color: var(--background-white-color);
+                        margin-bottom: 0px;
                     }
 
                     .hero-title {
@@ -93,6 +102,7 @@
                         letter-spacing: 0.06em;
                         text-transform: uppercase;
                         color: var(--background-white-color);
+                        margin-bottom: 0px;
                     }
 
                     .hero-button {
@@ -104,6 +114,7 @@
                         cursor: pointer;
                         background-color: var(--accent-color);
                         color: var(--background-white-color);
+                        
                     }
 
                     .hero-button :hover {
@@ -119,6 +130,7 @@
                         cursor: pointer;
                         color: var(--title-text-color);
                         background-color: var(--team-section-color);
+                      
                     }
 
                     .button-filter :hover {
@@ -136,6 +148,7 @@
                         letter-spacing: 0.03em;
                         text-transform: uppercase;
                         color: var(--title-text-color);
+                        margin-bottom: 0px;
                     }
 
                     .text-skill {
@@ -143,7 +156,8 @@
                         font-size: 14px;
                         line-height: 1.71;
                         letter-spacing: 0.03em;
-                        color: var(--primary-text-color)
+                        color: var(--primary-text-color);
+                        margin-bottom: 0px;
                     }
 
                     .caption {
@@ -153,6 +167,7 @@
                         text-align: center;
                         letter-spacing: 0.03em;
                         color: var(--title-text-color);
+                        margin-bottom: 0px;
                     }
 
                     .team {
