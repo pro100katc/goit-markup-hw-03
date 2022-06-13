@@ -3,11 +3,13 @@
 /* колір акцент #2196F3 */
 /* другорядний колір rgba(255, 255, 255, 0.6) */
 /* <style>*/
-
+html{
+    box-sizing: border-box;
+}
 *,
 *::after,
 *::before {
-  box-sizing: border-box;
+  box-sizing: inherit;
 }
 
 :root {
@@ -42,21 +44,25 @@ body {
   margin-right: auto;
   background-color: inherit
 }
-.container .adres-info .a{
-    margin-left: 700;
-    display: block;
+.container .adres-info {
+    margin: auto;
+     margin-top: 0;
+    margin-bottom:0;
+    display: inline-block;
+  
 }
 .footer-container{
     margin-top: 0;
     margin-bottom: 0;
     padding: 60px 0;
-    display: block;
+    
 }
 
 .footer-container .logo{
-    margin-top: 0px;
-    margin-bottom: 20px;
-    display: block;
+    margin-top: 60px;
+    margin-bottom: 161px;
+   
+
 }
 .logo {
   font-family: "Raleway";
@@ -74,6 +80,7 @@ body {
   color: var(--studio-color);
 }
 
+
 .nav-title {
   font-weight: 500;
   font-size: 14px;
@@ -82,6 +89,8 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
   margin-bottom: 0px;
+
+  
 }
 
 .site-nav :hover {
@@ -106,12 +115,7 @@ body {
 /* HEADER*/
 /* Hero */
 
-.hero {
-  background-color: yellow;
-  color: inherit;
-  margin-bottom: 0px;
-  text-align: center;
-}
+
 
 .hero-title {
   font-weight: 900;
@@ -120,8 +124,13 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--background-white-color);
   margin-bottom: 0px;
+  display: inherit;
+  color: var(--title-text-color);
+  margin-left: auto;
+  margin-right: auto; 
+  margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .hero-button {
@@ -133,8 +142,9 @@ body {
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-white-color);
+  display: inherit;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; 
 }
 
 .hero-button :hover {
@@ -168,7 +178,7 @@ body {
   text-transform: uppercase;
   color: var(--title-text-color);
   margin-bottom: 0px;
-  margin-top: 94px;
+  margin-top: 0px;
 }
 
 .text-skill {
@@ -252,6 +262,7 @@ body {
   font-size: 14px;
   letter-spacing: 0.03em;
   color: var(--background-white-color);
+  display: inherit;
 }
 
 .footer .info-footer {
@@ -275,4 +286,5 @@ body {
   line-height: 1.19;
   text-decoration: none;
   color: var(--background-white-color);
+  display: inherit;
 }
