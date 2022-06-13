@@ -163,6 +163,7 @@ body {
   cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--team-section-color);
+  
 }
 
 .button-filter :hover {
