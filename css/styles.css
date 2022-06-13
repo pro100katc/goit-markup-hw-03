@@ -38,20 +38,13 @@ body {
 
 /* HEADER*/
 .container {
-  width: 1170px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: inherit;
   outline: 2px solid tomato;
-}
-
-.container .adres-info {
-  margin: auto;
-  margin-top: 0;
-  margin-bottom: 0;
-  display: inline-block;
 
 }
 
@@ -59,32 +52,18 @@ body {
   margin-top: 0;
   margin-bottom: 0;
   padding: 60px 0;
-
 }
 
 .footer-container .logo {
   margin-top: 60px;
   margin-bottom: 161px;
-
-
 }
 
-.logo {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  text-decoration: none;
-  color: var(--accent-color);
-  margin-bottom: 0px;
-}
+
 
 .studio {
   color: var(--studio-color);
 }
-
 
 .nav-title {
   font-weight: 500;
@@ -94,6 +73,50 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
   margin-bottom: 0px;
+
+}
+
+/* HEADER-PAGE FLEX*/
+
+.page-heager {
+  display: flex;
+  margin-top: 10px;
+  justify-content:space-around
+}
+
+.logo {
+  
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--accent-color);
+
+}
+
+
+
+/* PAGE FLEX*/
+
+
+
+.about {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.person-card {
+  display: flex;
+  justify-content: space-around;
 }
 
 .site-nav :hover {
@@ -113,12 +136,11 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+
 }
 
 /* HEADER*/
 /* Hero */
-
-
 
 .hero-title {
   font-weight: 900;
@@ -163,7 +185,6 @@ body {
   cursor: pointer;
   color: var(--title-text-color);
   background-color: var(--team-section-color);
-  
 }
 
 .button-filter :hover {
@@ -233,6 +254,12 @@ body {
   display: none;
 }
 
+.about-nine {
+  display: flex;
+  justify-content: space-around;
+
+}
+
 .intro-title {
   font-weight: 700;
   font-size: 18px;
@@ -294,3 +321,20 @@ body {
   color: var(--background-white-color);
   display: inherit;
 }
+
+
+
+
+/*.site-nav {
+  display: flex;
+
+  justify-content:center;
+}
+
+
+.adres-info {
+  display: flex;
+  flex-direction: row;
+
+
+}*/
