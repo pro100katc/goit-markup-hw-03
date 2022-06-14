@@ -132,7 +132,7 @@ body {
 
 /* __________HEADER____________*/
 
-  /* ----------HERO------------- */
+/* ----------HERO------------- */
 .hero {
   width: 1440px;
 }
@@ -179,9 +179,10 @@ body {
 .button :hover {
   color: var(--accent-color);
 }
- /* ----------HERO------------- */
 
-  /* ----------SKILLS------------- */
+/* ----------HERO------------- */
+
+/* ----------SKILLS------------- */
 
 
 .skills-about h2 {
@@ -192,18 +193,13 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 94px;
- 
-}
-.skills .title-skill:not(:last-child){
-  margin-right: 30px;
   outline: 2px solid green;
 }
 
-.skills .text-skill:not(:last-child){
+.skills .title-skill:not(:last-child) {
   margin-right: 30px;
   outline: 2px solid green;
 }
-
 
 .title-skill {
   font-weight: 700;
@@ -214,7 +210,6 @@ body {
   color: var(--title-text-color);
   margin-bottom: 0px;
   margin-top: 0px;
-  
 }
 
 .text-skill {
@@ -223,19 +218,23 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-bottom: 0px;
+  margin-bottom: 94px;
   margin-top: 10px;
+  margin-right: 30px;
+  outline: 2px solid green;
+
 }
 
 
 /* ----------SKILLS------------- */
 
- /* ---------IMAGES-ABOUT-------------- */
+/* ---------IMAGES-ABOUT-------------- */
 
 .person-card {
   display: flex;
   justify-content: space-around;
 }
+
 .about {
   display: flex;
   justify-content: space-between;
