@@ -35,6 +35,7 @@ body {
   margin: 0px;
   padding: 0px;
 }
+
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -48,10 +49,13 @@ body {
 
 /* -----------HEADER-------------*/
 
-.main-nav{
+.main-nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 1200px;
+  height: 80px;
+  margin-top: 1px;
 }
 
 .logo {
@@ -65,14 +69,11 @@ body {
   color: var(--accent-color);
   display: flex;
   margin-right: 93px;
-  
- 
-  
 }
 
 .studio {
   color: var(--studio-color);
-  
+
 }
 
 .site-nav {
@@ -86,12 +87,14 @@ body {
   margin-right: 93px;
 
 }
-.site-nav .item{
+
+.site-nav .item {
   display: block;
   margin-top: 32px;
   margin-bottom: 32px;
-  
+
 }
+
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
   outline: 2px solid sandybrown;
@@ -99,7 +102,7 @@ body {
 
 .adres-info {
   display: flex;
-  
+
 }
 
 .adres-info .item:not(:last-child) {
@@ -124,26 +127,14 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+}
 
 
-  /* __________HEADER____________*/
+/* __________HEADER____________*/
 
   /* ----------HERO------------- */
-}
-.about {
-  display: flex;
-  justify-content: space-around;
-
-}
-
-.skills {
-  display: flex;
-  justify-content: space-around;
-}
-
-.person-card {
-  display: flex;
-  justify-content: space-around;
+.hero {
+  width: 1440px;
 }
 
 .hero-title {
@@ -156,10 +147,9 @@ body {
   margin-bottom: 0px;
   display: inherit;
   color: var(--title-text-color);
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 0px;
-  margin-top: 0px;
+  margin-left: 252px;
+  margin-right: 252px;
+  margin-top: 200px;
 }
 
 .hero-button {
@@ -171,33 +161,49 @@ body {
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-white-color);
-  display: inherit;
-  margin-left: auto;
-  margin-right: auto;
+  margin-left: 580px;
+  margin-right: 580px;
+  margin-top: 40px;
+  margin-bottom: 210px;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  padding-top: 10px;
+  padding-left: 32px;
+  padding-bottom: 10px;
+  padding-right: 32px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
 
-.hero-button :hover {
+.button :hover {
   color: var(--accent-color);
 }
+ /* ----------HERO------------- */
 
-.button-filter {
-  font-family: "Roboto";
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.63;
-  letter-spacing: 0.03em;
-  cursor: pointer;
-  color: var(--title-text-color);
-  background-color: var(--team-section-color);
-}
+  /* ----------SKILLS------------- */
 
-.button-filter :hover {
-  color: var(--accent-color);
-}
 
 .skills-about h2 {
   display: none;
 }
+
+.skills {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 94px;
+ 
+}
+.skills .title-skill:not(:last-child){
+  margin-right: 30px;
+  outline: 2px solid green;
+}
+
+.skills .text-skill:not(:last-child){
+  margin-right: 30px;
+  outline: 2px solid green;
+}
+
 
 .title-skill {
   font-weight: 700;
@@ -208,6 +214,7 @@ body {
   color: var(--title-text-color);
   margin-bottom: 0px;
   margin-top: 0px;
+  
 }
 
 .text-skill {
@@ -219,6 +226,29 @@ body {
   margin-bottom: 0px;
   margin-top: 10px;
 }
+
+
+/* ----------SKILLS------------- */
+
+ /* ---------IMAGES-ABOUT-------------- */
+
+.person-card {
+  display: flex;
+  justify-content: space-around;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
 
 .caption {
   font-weight: 700;
@@ -254,6 +284,23 @@ body {
 }
 
 /* PORTFOLIO*/
+
+
+.button-filter {
+  font-family: "Roboto";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  color: var(--title-text-color);
+  background-color: var(--team-section-color);
+}
+
+.button-filter :hover {
+  color: var(--accent-color);
+}
+
 .introduction h2 {
   display: none;
 }
@@ -291,14 +338,15 @@ body {
 }
 
 .footer-container {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 60px 0;
+  flex-direction: column;
+  height: 252px;
 }
 
 .footer-container .logo {
-  margin-top: 60px;
-  margin-bottom: 161px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60;
+  padding-bottom: 0px;
 }
 
 .adress-footer {
@@ -311,6 +359,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--background-white-color);
   display: inherit;
+  padding-top: 0px;
+  padding-bottom: 20px;
 }
 
 .footer .info-footer {
@@ -322,6 +372,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
+  padding-bottom: 60px;
 }
 
 .info :hover {
@@ -335,4 +386,9 @@ body {
   text-decoration: none;
   color: var(--background-white-color);
   display: inherit;
+  margin: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 60;
+  padding-bottom: 0px;
 }
