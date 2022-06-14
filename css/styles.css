@@ -35,8 +35,6 @@ body {
   margin: 0px;
   padding: 0px;
 }
-
-/* HEADER*/
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -48,44 +46,15 @@ body {
 
 }
 
-.footer-container {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 60px 0;
-}
+/* -----------HEADER-------------*/
 
-.footer-container .logo {
-  margin-top: 60px;
-  margin-bottom: 161px;
-}
-
-
-
-.studio {
-  color: var(--studio-color);
-}
-
-.nav-title {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: var(--title-text-color);
-  margin-bottom: 0px;
-
-}
-
-/* HEADER-PAGE FLEX*/
-
-.page-heager {
+.main-nav{
   display: flex;
-  margin-top: 10px;
-  justify-content:space-around
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-  
   font-family: "Raleway";
   font-style: normal;
   font-weight: 700;
@@ -94,29 +63,48 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
-
+  display: flex;
+  margin-right: 93px;
+  
+ 
+  
 }
 
-
-
-/* PAGE FLEX*/
-
-
-
-.about {
-  display: flex;
-  justify-content: space-around;
-
+.studio {
+  color: var(--studio-color);
+  
 }
 
-.skills {
+.site-nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--title-text-color);
   display: flex;
-  justify-content: space-around;
+  margin-right: 93px;
+
+}
+.site-nav .item{
+  display: block;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  
+}
+.site-nav .item:not(:last-child) {
+  margin-right: 50px;
+  outline: 2px solid sandybrown;
 }
 
-.person-card {
+.adres-info {
   display: flex;
-  justify-content: space-around;
+  
+}
+
+.adres-info .item:not(:last-child) {
+  margin-right: 50px;
+  outline: 2px solid sandybrown
 }
 
 .site-nav :hover {
@@ -137,10 +125,26 @@ body {
   text-decoration: none;
   color: var(--primary-text-color);
 
+
+  /* __________HEADER____________*/
+
+  /* ----------HERO------------- */
+}
+.about {
+  display: flex;
+  justify-content: space-around;
+
 }
 
-/* HEADER*/
-/* Hero */
+.skills {
+  display: flex;
+  justify-content: space-around;
+}
+
+.person-card {
+  display: flex;
+  justify-content: space-around;
+}
 
 .hero-title {
   font-weight: 900;
@@ -286,6 +290,17 @@ body {
   background-color: var(--footer-background-color);
 }
 
+.footer-container {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 60px 0;
+}
+
+.footer-container .logo {
+  margin-top: 60px;
+  margin-bottom: 161px;
+}
+
 .adress-footer {
   font-family: inherit;
   font-size: 14px;
@@ -321,20 +336,3 @@ body {
   color: var(--background-white-color);
   display: inherit;
 }
-
-
-
-
-/*.site-nav {
-  display: flex;
-
-  justify-content:center;
-}
-
-
-.adres-info {
-  display: flex;
-  flex-direction: row;
-
-
-}*/
