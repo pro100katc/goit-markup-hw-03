@@ -84,7 +84,7 @@ body {
   text-decoration: none;
   color: var(--title-text-color);
   display: flex;
-  margin-right: 93px;
+  
 
 }
 
@@ -102,6 +102,7 @@ body {
 
 .adres-info {
   display: flex;
+  margin-left: 331px;
 
 }
 
@@ -127,6 +128,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--primary-text-color);
+  
 }
 
 
