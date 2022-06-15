@@ -37,13 +37,13 @@ body {
 }
 
 .container {
-  width: 1200px;
+  width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
   background-color: inherit;
-  outline: 2px solid tomato;
+  
 
 }
 
@@ -56,7 +56,7 @@ body {
   width: 1200px;
   height: 80px;
   margin-top: 1px;
-  outline: 2px solid green;
+  
 }
 
 .logo {
@@ -98,18 +98,18 @@ body {
 
 .site-nav .item:not(:last-child) {
   margin-right: 50px;
-  outline: 2px solid sandybrown;
+
 }
 
 .adres-info {
   display: flex;
-  margin-left: 331px;
+  margin-left: auto;
 
 }
 
 .adres-info .item:not(:last-child) {
   margin-right: 50px;
-  outline: 2px solid sandybrown
+ 
 }
 
 .site-nav :hover {
@@ -139,7 +139,7 @@ body {
 .hero {
   height: 600px;
   width: 1440px;
-  outline: 2px solid green;
+ 
 
 }
 
@@ -184,10 +184,9 @@ body {
 
 }
 
-.button :hover {
-  color: var(--accent-color);
+.hero-button :hover {
+  background-color: #188CE8;
 }
-
 /* ----------HERO------------- */
 
 /* ----------SKILLS------------- */
@@ -201,12 +200,12 @@ body {
   display: flex;
   justify-content: space-around;
   padding-top: 94px;
-  outline: 2px solid green;
+  
 }
 
 .skills .title-skill:not(:last-child) {
   margin-right: 30px;
-  outline: 2px solid green;
+ 
 }
 
 
@@ -231,7 +230,7 @@ body {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-right: 30px;
-  outline: 2px solid green;
+  
 
 }
 
@@ -248,7 +247,7 @@ body {
 
 .about.item-card:not(:last-child) {
   margin-right: 30px;
-  outline: 2px solid red;
+  
 }
 
 .item-card {
@@ -282,7 +281,7 @@ body {
 
 .person-card .team-card:not(:last-child) {
   margin-right: 30px;
-  outline: 2px solid red;
+  
 }
 
 .team-card {
@@ -296,8 +295,23 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--title-text-color);
-  margin-bottom: 0px;
+  margin: 0px;
+  
 }
+.person-card .person-name{
+  text-align: center;
+
+ padding-top: 30px;
+ margin: 0px;
+}
+
+.person-card .profession{
+text-align: center;
+  
+  padding-top: 10px;
+ padding-bottom: 0px;
+ }
+
 
 .profession {
   font-weight: 400;
@@ -305,7 +319,7 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
-  margin-bottom: 0px;
+  margin: 0px;
 }
 
 /* PORTFOLIO*/
@@ -327,14 +341,11 @@ body {
 .buttons {
   display: flex;
   justify-content: center;
-
 }
 
 .buttons .item-btn:not(:last-child) {
   margin-right: 30px;
-
 }
-
 
 .button-filter :hover {
   color: var(--accent-color);
@@ -348,6 +359,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+ 
 
 }
 
@@ -375,18 +387,20 @@ body {
 
 .footer {
   background-color: var(--footer-background-color);
+  height: 252px;
+  width: 1440px;
 }
 
 .footer-container {
   flex-direction: column;
-  height: 252px;
+  display: flex;
 }
 
 .footer-container .logo {
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 60;
-  padding-bottom: 0px;
+
+  margin :0px;
+  padding-top: 60px;
+  padding-bottom: 20px;
 }
 
 .adress-footer {
@@ -400,7 +414,7 @@ body {
   color: var(--background-white-color);
   display: inherit;
   padding-top: 0px;
-  padding-bottom: 20px;
+  padding-bottom: 9x;
 }
 
 .footer .info-footer {
@@ -412,7 +426,8 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 60px;
+  padding-bottom:  60px;;
+ 
 }
 
 .info :hover {
@@ -427,8 +442,4 @@ body {
   color: var(--background-white-color);
   display: inherit;
   margin: 0px;
-  margin-top: 0px;
-  margin-bottom: 0px;
-  padding-top: 60;
-  padding-bottom: 0px;
 }
