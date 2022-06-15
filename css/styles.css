@@ -56,6 +56,7 @@ body {
   width: 1200px;
   height: 80px;
   margin-top: 1px;
+  outline: 2px solid green;
 }
 
 .logo {
@@ -136,7 +137,10 @@ body {
 
 /* ----------HERO------------- */
 .hero {
+  height: 600px;
   width: 1440px;
+  outline: 2px solid green;
+
 }
 
 .hero-title {
@@ -149,9 +153,10 @@ body {
   margin-bottom: 0px;
   display: inherit;
   color: var(--title-text-color);
-  margin-left: 252px;
-  margin-right: 252px;
-  margin-top: 200px;
+  padding-left: 252px;
+  padding-right: 252px;
+  padding-top: 200px;
+  margin: 0px;
 }
 
 .hero-button {
@@ -176,6 +181,7 @@ body {
   display: flex;
   align-items: center;
   text-align: center;
+ 
 }
 
 .button :hover {
