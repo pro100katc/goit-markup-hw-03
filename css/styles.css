@@ -124,10 +124,7 @@ body {
 /* __________HEADER____________*/
 
 /* ----------HERO------------- */
-.hero {
-  height: 600px;
-  width: 1440px;
-}
+
 
 .hero-title {
   font-weight: 900;
@@ -142,7 +139,7 @@ body {
   padding-left: 252px;
   padding-right: 252px;
   padding-top: 200px;
-  margin: 0px;
+  margin: auto;
 }
 
 .hero-button {
@@ -154,10 +151,7 @@ body {
   cursor: pointer;
   background-color: var(--accent-color);
   color: var(--background-white-color);
-  margin-left: 580px;
-  margin-right: 580px;
-  margin-top: 40px;
-  margin-bottom: 210px;
+  margin: auto;
   border-radius: 4px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding-top: 10px;
@@ -355,7 +349,6 @@ body {
   
 }
 .img{
-  outline: 2px solid red;
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
@@ -368,7 +361,6 @@ body {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-text-color);
-  outline: 2px solid red;
   margin: 0px;
    padding-top: 20px;
   padding-left: 24px;
@@ -384,7 +376,6 @@ body {
   font-size: 16px;
   letter-spacing: 0.03em;
   color: inherit;
-  outline: 2px solid red;
   margin: 0px;
   padding-top: 0px;
   padding-left: 24px;
