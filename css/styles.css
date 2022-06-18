@@ -85,6 +85,8 @@ p {
 .nav-title {
   display: block;
   padding: 32px 0;
+  color: inherit;
+  text-decoration: none;
 
 }
 
@@ -164,8 +166,8 @@ p {
   border: none
 }
 
-.hero-button :hover {
-  background-color: #188ce8;
+.hero-button :hover{
+color: aqua;
 }
 
 /* ----------HERO------------- */
