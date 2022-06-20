@@ -225,10 +225,12 @@ p {
 }
 
 .item-card {
-  padding-top: 50px;
-  padding-bottom: 94px;
+  margin-top: 50px;
+ 
 }
-
+.item-card:not(:last-child) {
+  margin-right: 30px;
+}
 .caption {
   font-weight: 700;
   font-size: 36px;
