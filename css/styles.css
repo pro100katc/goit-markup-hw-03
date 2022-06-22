@@ -470,3 +470,6 @@ img {
   color: var(--accent-color);
 }
 
+.tel  :hover {
+  color: var(--accent-color);
+}
