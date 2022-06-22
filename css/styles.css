@@ -64,8 +64,8 @@ p {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
-  display: flex;
-  margin-right: 93px;
+  
+  
 }
 
 .studio {
@@ -80,6 +80,7 @@ p {
   text-decoration: none;
   color: var(--title-text-color);
   display: flex;
+  margin-left: 93px;
 }
 
 .nav-title {
@@ -95,7 +96,7 @@ p {
 
 .adres-info {
   display: flex;
-  margin-left: auto;
+  margin-left: 331px;
 }
 
 .adres-info .item:not(:last-child) {
@@ -407,12 +408,16 @@ img {
   background-color: var(--footer-background-color);
 }
 
-
-
 .footer-container .logo {
-  margin: 0px;
-  padding-top: 60px;
-  padding-bottom: 20px;
+  padding-top:  60px;
+  display: block;
+}
+.footer-studio {
+  font-family: inherit;
+  font-size: 26px;
+  line-height: 1.19;
+  text-decoration: none;
+  color: var(--background-white-color);
 }
 
 .adress-footer {
@@ -425,11 +430,22 @@ img {
   letter-spacing: 0.03em;
   color: var(--background-white-color);
   display: inherit;
-  padding-top: 0px;
-  padding-bottom: 9x;
+  padding-top: 20px;
+  
 }
 
-.footer .info-footer {
+.info-footer .mail-footer {
+  padding-top: 9px;
+  display: block;
+}
+
+.info-footer .tel-footer{
+  padding-top: 9px;
+  padding-bottom: 60px;
+  display: block;
+}
+
+.mail-footer  {
   font-family: inherit;
   font-style: normal;
   font-weight: 400;
@@ -438,19 +454,19 @@ img {
   letter-spacing: 0.03em;
   text-decoration: none;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 60px;
+  
 }
-
-.info :hover {
+.tel-footer{
+  font-family: inherit;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.6);
+}
+.mail :hover {
   color: var(--accent-color);
 }
 
-.footer-studio {
-  font-family: inherit;
-  font-size: 26px;
-  line-height: 1.19;
-  text-decoration: none;
-  color: var(--background-white-color);
-  display: inherit;
-  margin: 0px;
-}
