@@ -34,7 +34,9 @@ p {
   margin: 0px;
   padding: 0px;
 }
-
+.site-nav .current {
+  color: var(--accent-color);
+}
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -292,6 +294,7 @@ img {
 /* PORTFOLIO*/
 
 /*---------BTN-FILTER----------*/
+
 
 .btn-filter {
   justify-content: center;
