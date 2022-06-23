@@ -99,7 +99,7 @@ p {
 
 .adres-info {
   display: flex;
-  margin-left: 331px;
+  margin-left: 317px;
 }
 
 .adres-info .item:not(:last-child) {
@@ -459,6 +459,9 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-item:hover {
+.mail-footer:hover {
+  color: var(--accent-color);
+}
+.tel-footer:hover {
   color: var(--accent-color);
 }
