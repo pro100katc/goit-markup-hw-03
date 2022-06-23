@@ -167,8 +167,8 @@ p {
   border: none;
 }
 
-.hero-button :hover {
-  color: aqua;
+.hero-button:hover {
+  color:var(--team-section-color);
 }
 
 /* ----------HERO------------- */
@@ -321,10 +321,15 @@ img {
   border: none;
 }
 
-.btn-filter :hover {
-  background-color: var(--accent-color);
-  border-radius: 4px;
+.button-filter .active-btn{
+  color: var(--title-text-color);
+  background-color: var(--background-white-color);
 }
+.button-filter:hover{
+  background-color: var(--accent-color);
+  color: var(--background-white-color);
+}
+
 
 .btn-filter .item-btn:not(:last-child) {
   margin-right: 8px;
@@ -444,6 +449,6 @@ img {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.footer-item :hover {
+.footer-item:hover {
   color: var(--accent-color);
 }
